@@ -1,0 +1,32 @@
+---
+export interface Props {
+	work: any;
+}
+
+const { work } = Astro.props;
+const randomSign = () => {
+	return Math.random() < 0.5 ? '+' : '-'
+}
+const style = `transform:rotate(${randomSign()}${Math.random() * (3 - 1) + 1}deg)`
+---
+
+<article class="work-image" style={style}>
+	<div style={`width:${work.frontmatter.imageSize}%`}>
+		<img src={work.frontmatter.image}>
+		<span class="work-image__caption">{work.frontmatter.title} ({work.frontmatter.year}), {work.frontmatter.medium}, {work.frontmatter.dimensions}</span>
+	</div>
+</article>
+
+<style>
+	@media (min-width: 50em) {
+		.work-image {
+			width: 50%;
+		}
+		.work-image__caption {
+			visibility: hidden;
+		}
+		.work-image:hover .work-image__caption {
+			visibility: visible;
+		}
+	}
+</style>

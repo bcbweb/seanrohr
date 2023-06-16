@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteNav from '../components/SiteNav.astro';
+import { SITE } from '../config';
+
+let { title } = SITE;
+let description = 'The perfect starter for your perfect blog.';
+let permalink = 'https://example.com/';
+
+let content = await Astro.glob('./content/info.md');
+---
+
+<html lang="en">
+	<head>
+		<BaseHead {title} {description} {permalink} />
+
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<SiteHeader />
+		<SiteNav />
+		<main class="wrapper">
+			{JSON.stringify(content)}
+		</main>
+	</body>
+</html>
