@@ -23,6 +23,8 @@ export default defineConfig({
             files: [
               {
                 file: 'src/pages/content/info.md',
+                name: 'infoPage',
+                label: 'Info page',
                 fields: [
                   { name: 'content', widget: 'markdown', label: 'Content' },
                   { name: 'email', widget: 'string', label: 'Email' },
