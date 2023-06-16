@@ -37,7 +37,7 @@ export default defineConfig({
               { name: 'altText', widget: 'string', label: 'Alt text' },
               {
                 name: 'category',
-                widget: 'string',
+                widget: 'select',
                 label: 'Category',
                 options: ['painting', 'paper'],
               },
