@@ -6,6 +6,6 @@ medium: Fish in water
 dimensions: 10cm x 20cm x 10cm
 altText: Fish image
 category: paper
-imageSize: 80
+imageSize: 10
 visible: true
 ---
