@@ -20,42 +20,44 @@ export default defineConfig({
             name: 'pages',
             label: 'Pages',
             label_singular: 'Page',
-            files: {
-              file: 'src/pages/content/info.md',
-              fields: [
-                { name: 'content', widget: 'markdown', label: 'Content' },
-                { name: 'email', widget: 'string', label: 'Email' },
-                { name: 'instagram', widget: 'string', label: 'Instagram' },
-                {
-                  name: 'mailingList',
-                  widget: 'string',
-                  label: 'Mailing List',
-                },
-                {
-                  name: 'exhibitionCategories',
-                  widget: 'list',
-                  label: 'Exhibition categories',
-                  fields: [
-                    {
-                      name: 'title',
-                      widget: 'string',
-                      label: 'Title',
-                    },
-                    {
-                      name: 'images',
-                      widget: 'image',
-                      label: 'Images',
-                      allow_multiple: true,
-                    },
-                    {
-                      name: 'visible',
-                      widget: 'boolean',
-                      label: 'Vvisible?',
-                    },
-                  ],
-                },
-              ],
-            },
+            files: [
+              {
+                file: 'src/pages/content/info.md',
+                fields: [
+                  { name: 'content', widget: 'markdown', label: 'Content' },
+                  { name: 'email', widget: 'string', label: 'Email' },
+                  { name: 'instagram', widget: 'string', label: 'Instagram' },
+                  {
+                    name: 'mailingList',
+                    widget: 'string',
+                    label: 'Mailing List',
+                  },
+                  {
+                    name: 'exhibitionCategories',
+                    widget: 'list',
+                    label: 'Exhibition categories',
+                    fields: [
+                      {
+                        name: 'title',
+                        widget: 'string',
+                        label: 'Title',
+                      },
+                      {
+                        name: 'images',
+                        widget: 'image',
+                        label: 'Images',
+                        allow_multiple: true,
+                      },
+                      {
+                        name: 'visible',
+                        widget: 'boolean',
+                        label: 'Vvisible?',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
           },
           {
             name: 'works',
