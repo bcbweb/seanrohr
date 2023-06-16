@@ -36,9 +36,9 @@ export default defineConfig({
               { name: 'dimensions', widget: 'string', label: 'Dimensions' },
               { name: 'altText', widget: 'string', label: 'Alt text' },
               {
-                name: 'title',
+                name: 'category',
                 widget: 'string',
-                label: 'Title',
+                label: 'Category',
                 options: ['painting', 'paper'],
               },
               {
