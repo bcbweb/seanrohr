@@ -1,10 +1,10 @@
 ---
 image: /assets/media/gettyimages-1145794687.jpg
-title: Axolotl, Mexico
+title: Quokka
 year: "2010"
-medium: Fish in water
+medium: Fluffball
 dimensions: 10cm x 20cm x 10cm
-altText: Fish image
+altText: Fluffy thing
 category: paper
 imageSize: 85
 visible: true
