@@ -9,7 +9,8 @@ let { title } = SITE;
 let description = 'The perfect starter for your perfect blog.';
 let permalink = 'https://example.com/';
 
-let allWorks = await Astro.glob('./works/*.md');
+// let allWorks = await Astro.glob('./works/*.md');
+let allWorks = []
 allWorks = allWorks.sort((a, b) => new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf());
 ---
 
