@@ -70,18 +70,19 @@ export default defineConfig({
             create: true,
             delete: true,
             fields: [
+              { name: 'title', widget: 'string', label: 'Title' },
               {
                 name: 'works',
                 widget: 'list',
                 label: 'Works',
                 fields: [
+                  { name: 'title', widget: 'string', label: 'Title' },
                   {
                     name: 'image',
                     widget: 'image',
                     label: 'Image',
                     allow_multiple: false,
                   },
-                  { name: 'title', widget: 'string', label: 'Title' },
                   { name: 'year', widget: 'string', label: 'Year' },
                   { name: 'medium', widget: 'string', label: 'Medium' },
                   { name: 'dimensions', widget: 'string', label: 'Dimensions' },
