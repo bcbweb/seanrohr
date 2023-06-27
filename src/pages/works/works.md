@@ -10,14 +10,14 @@ works:
     imageSize: 80
     year: "2021"
     category: paper
-  - dimensions: A2
+  - dimensions: ...
     visible: true
     medium: Pencil and crayon on paper
-    altText: XXX
-    title: Girl in blue
-    image: /assets/media/screenshot-2023-06-21-at-18.08.21.png
+    altText: Trans woman wearing a blue dress, seated
+    title: Transwoman in blue
+    image: /assets/media/trans-woman-in-blue.jpg
     imageSize: 100
-    year: "2023"
+    year: "2022"
     category: paper
   - dimensions: 17 x 27 cm / 4.3 x 10.6 in
     visible: true
@@ -72,5 +72,14 @@ works:
     image: /assets/media/violent-convict-seated.jpg
     imageSize: 100
     year: "2020"
+    category: paper
+  - dimensions: 42 x 59.4 cm / 16.5 x 23.4 in
+    visible: true
+    medium: Pencil and coloured pencil on paper
+    altText: Old man sitting naked on a chair
+    title: Comedian
+    image: /assets/media/comedian.jpg
+    imageSize: 100
+    year: "2021"
     category: paper
 ---
