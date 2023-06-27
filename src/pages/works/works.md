@@ -82,4 +82,31 @@ works:
     imageSize: 100
     year: "2021"
     category: paper
+  - dimensions: 42 x 59.4 cm / 16.5 x 23.4 in
+    visible: true
+    medium: Pencil on paper
+    altText: A young man and woman resting
+    title: Come down
+    image: /assets/media/come-down.jpg
+    imageSize: 100
+    year: "2022"
+    category: paper
+  - dimensions: 29.7 x 42 cm / 11.7 x 16.5 in
+    visible: true
+    medium: Pencil & crayon on paper
+    altText: Bust portrait of young woman with arms raised above head
+    title: D&D player with arms raised
+    image: /assets/media/natasha-arms-raised.jpg
+    imageSize: 100
+    year: "2023"
+    category: paper
+  - dimensions: ....
+    visible: true
+    medium: Pencil on paper
+    altText: Head of a homeless man
+    title: Head of a homeless man in hat
+    image: /assets/media/head-of-homeless-man.jpg
+    imageSize: 100
+    year: "2022"
+    category: paper
 ---
