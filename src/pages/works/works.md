@@ -64,4 +64,13 @@ works:
     imageSize: 100
     year: "2023"
     category: paper
+  - dimensions: A3
+    visible: true
+    medium: Pencil on paper
+    altText: Transgender woman seated on a sofa
+    title: Violent convict, seated
+    image: /assets/media/violent-convict-seated.jpg
+    imageSize: 100
+    year: "2020"
+    category: paper
 ---
