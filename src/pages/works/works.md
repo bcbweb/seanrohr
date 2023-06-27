@@ -1,14 +1,14 @@
 ---
 title: Works
 works:
-  - dimensions: A2
+  - dimensions: 42 x 59.4 cm / 16.5 x 23.4 in
     visible: true
     medium: Pencil on paper
-    altText: XXX
+    altText: Line drawing of a girl reclining & stretching
     title: Ziggi stretching
-    image: /assets/media/screenshot-2023-06-21-at-18.05.40.png
-    imageSize: 82
-    year: "2022"
+    image: /assets/media/dancer-stretching.jpg
+    imageSize: 80
+    year: "2021"
     category: paper
   - dimensions: A2
     visible: true
@@ -19,22 +19,49 @@ works:
     imageSize: 100
     year: "2023"
     category: paper
-  - dimensions: A5
+  - dimensions: 17 x 27 cm / 4.3 x 10.6 in
     visible: true
     medium: Pencil on paper
-    altText: XXX
-    title: The last boy I kissed
+    altText: Portrait of a young asian man with long hair
+    title: Young marxist
     image: /assets/media/screenshot-2023-06-21-at-18.08.33.png
-    imageSize: 100
+    imageSize: 80
     year: "2023"
     category: paper
-  - dimensions: A2
+  - dimensions: 42 x 59.4 cm / 16.5 x 23.4 in
     visible: true
     medium: Pencil and crayon on paper
-    altText: xxx
-    title: Ziggi seated
+    altText: Drawing of a woman sitting a yellow chair with a green background
+    title: Ziggi seated, green
     image: /assets/media/ziggi-seated-transparent.png
     imageSize: 100
     year: "2022"
+    category: paper
+  - dimensions: 42 x 59.4 cm / 16.5 x 23.4 in
+    visible: true
+    medium: Pencil on paper
+    altText: Young woman getting dressed
+    title: Cypriot girl
+    image: /assets/media/young-cypriot.jpg
+    imageSize: 100
+    year: "2021"
+    category: paper
+  - dimensions: 29.7 x 42 cm / 11.7 x 16.5 in
+    visible: true
+    medium: Pencil and crayon on paper
+    altText: Seated girl in a pink and white furry costume
+    title: Queenie, Mincing Lane, April 9 2023
+    image: /assets/media/young-furry.jpg
+    imageSize: 100
+    year: "2023"
+    category: paper
+  - dimensions: 29.7 x 42 cm / 11.7 x 16.5 in
+    visible: true
+    medium: Pencil and crayon on paper
+    altText: Heavily tattooed man seated
+    title: King of Ink Land King Body Art T. E. I-I
+    image: /assets/media/king-of-ink-land-king-body-art.jpg
+    imageSize: 100
+    year: "2023"
     category: paper
 ---
